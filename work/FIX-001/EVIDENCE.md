@@ -10,7 +10,7 @@
 
 ## Planejamento
 
-- Branch: `feature/bootstrap-fix-development-v1`.
+- Branch de implementação: `feature/bootstrap-fix-development-v1`.
 - PLAN: `work/FIX-001/PLAN.md`.
 - Estratégia: contexto progressivo com README → AGENTS → docs → templates/Skills sob demanda.
 
@@ -19,8 +19,8 @@
 Implementados:
 - README objetivo;
 - `AGENTS.md` com 118 linhas;
-- 10 documentos sob `docs/`;
-- 7 templates reutilizáveis;
+- documentação sob `docs/`;
+- templates reutilizáveis;
 - 8 Skills do Codex;
 - `CONTRIBUTING.md`;
 - `work/BOARD.md` e task real `FIX-001`.
@@ -35,22 +35,17 @@ Implementados:
 | Skills | 8 `SKILL.md` com frontmatter `name` + `description` | PASS |
 | Estados | fluxo centralizado em `docs/ESTADOS.md` e refletido no README/AGENTS | PASS |
 | Economia de tokens | escada de contexto, diff-first, testes focados, logs focados, subagentes mínimos e compactação por marcos | PASS |
-| Genericidade | exemplos usam identificadores genéricos; nenhuma regra depende de projeto particular | PASS |
+| Genericidade | nenhuma regra depende de projeto particular | PASS |
 | PT-BR | documentação, templates e feedback operacional definidos em português do Brasil | PASS |
 | ZimaOS | trilha separada para Customized App + Skill própria | PASS |
-
-Comparação `main...feature/bootstrap-fix-development-v1` antes dos artefatos finais de review:
-- status: `ahead`;
-- ahead_by: 32;
-- behind_by: 0;
-- base: `c56866479802452986792f99a05f14b154a98016`;
-- HEAD revisado da implementação documental: `735362805d5271aa435e521f3ad3bb775501dfb8`.
 
 ## Review
 
 - Resultado: PASS.
 - Findings efetivos: 0.
 - Arquivo: `work/FIX-001/REVIEW.md`.
+- PR #1 review threads: 0.
+- PR #1 reviews pendentes: 0.
 
 ## Segurança
 
@@ -59,11 +54,24 @@ Comparação `main...feature/bootstrap-fix-development-v1` antes dos artefatos f
 
 ## Integração
 
-- PR: pending.
-- Merge SHA: pending.
+- PR de implementação: #1.
+- HEAD final do PR #1: `7e389774c4bf6cd43cab8d5b9df800960b4db64d`.
+- Mergeability antes do merge: `mergeable=true`, `mergeable_state=clean`.
+- CI/status checks configurados no PR #1: nenhum.
+- Merge method: squash.
+- Merge SHA da implementação: `a3e133dbb5f25d0780f8ac86395bcdd8c96074fa`.
+- Resultado da implementação: MERGED.
 
 ## Fechamento
 
-- STATUS.md: IN_REVIEW durante esta evidência.
-- BOARD.md: IN_REVIEW durante esta evidência.
-- Pendências fora do escopo: definição de licença pública do repositório permanece decisão separada.
+- Branch de closeout: `task/FIX-001-closeout`.
+- PR de closeout: #2.
+- Critérios de aceite em `TASK.md`: todos confirmados.
+- README final: `versão pública v1 disponível`.
+- STATUS final proposto: DONE.
+- BOARD final proposto: DONE.
+- BLOCKED_BY: none.
+- DEFERRED_GATE: none.
+- Pendência fora do escopo: definição de licença pública do repositório permanece decisão separada.
+
+Após o merge do PR #2, `main` passa a conter o fechamento canônico da `FIX-001` em `DONE`.

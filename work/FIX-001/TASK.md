@@ -34,16 +34,16 @@ Criar a primeira versão pública e genérica do Fix Development para desenvolvi
 
 ## Critérios de aceite
 
-- [ ] README apresenta o modelo objetivamente e permite navegação rápida.
-- [ ] Feedback e templates estão em português do Brasil.
-- [ ] Estados e transições estão documentados.
-- [ ] `BLOCKED_BY` e `DEFERRED_GATE` estão definidos sem ambiguidade.
-- [ ] Economia de tokens possui regras práticas e prioridade de risco/correção.
-- [ ] O modelo é genérico e não menciona projetos particulares como exemplo operacional.
-- [ ] Existe seção completa para ZimaOS Customized App.
-- [ ] Templates essenciais existem.
-- [ ] Skills essenciais do Codex existem.
-- [ ] Links principais do README resolvem para arquivos existentes.
+- [x] README apresenta o modelo objetivamente e permite navegação rápida.
+- [x] Feedback e templates estão em português do Brasil.
+- [x] Estados e transições estão documentados.
+- [x] `BLOCKED_BY` e `DEFERRED_GATE` estão definidos sem ambiguidade.
+- [x] Economia de tokens possui regras práticas e prioridade de risco/correção.
+- [x] O modelo é genérico e não menciona projetos particulares como exemplo operacional.
+- [x] Existe seção completa para ZimaOS Customized App.
+- [x] Templates essenciais existem.
+- [x] Skills essenciais do Codex existem.
+- [x] Links principais do README resolvem para arquivos existentes.
 
 ## Dependências
 
