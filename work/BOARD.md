@@ -2,7 +2,7 @@
 
 | TASK | Título | Estado | Dependências | PR | BLOCKED_BY | DEFERRED_GATE |
 | --- | --- | --- | --- | --- | --- | --- |
-| FIX-001 | Bootstrap do padrão público v1 | CLOSEOUT | none | #1 | none | none |
+| FIX-001 | Bootstrap do padrão público v1 | DONE | none | #1, #2 | none | none |
 
 ## Regras
 
