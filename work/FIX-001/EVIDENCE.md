@@ -10,7 +10,7 @@
 
 ## Planejamento
 
-- Branch: `feature/bootstrap-fix-development-v1`.
+- Branch de implementação: `feature/bootstrap-fix-development-v1`.
 - PLAN: `work/FIX-001/PLAN.md`.
 - Estratégia: contexto progressivo com README → AGENTS → docs → templates/Skills sob demanda.
 
@@ -39,18 +39,13 @@ Implementados:
 | PT-BR | documentação, templates e feedback operacional definidos em português do Brasil | PASS |
 | ZimaOS | trilha separada para Customized App + Skill própria | PASS |
 
-Comparação `main...feature/bootstrap-fix-development-v1` antes dos artefatos finais de review:
-- status: `ahead`;
-- ahead_by: 32;
-- behind_by: 0;
-- base: `c56866479802452986792f99a05f14b154a98016`;
-- HEAD revisado da implementação documental: `735362805d5271aa435e521f3ad3bb775501dfb8`.
-
 ## Review
 
 - Resultado: PASS.
 - Findings efetivos: 0.
 - Arquivo: `work/FIX-001/REVIEW.md`.
+- PR #1 review threads: 0.
+- PR #1 reviews pendentes: 0.
 
 ## Segurança
 
@@ -59,11 +54,18 @@ Comparação `main...feature/bootstrap-fix-development-v1` antes dos artefatos f
 
 ## Integração
 
-- PR: pending.
-- Merge SHA: pending.
+- PR de implementação: #1.
+- HEAD final do PR: `7e389774c4bf6cd43cab8d5b9df800960b4db64d`.
+- Mergeability antes do merge: `mergeable=true`, `mergeable_state=clean`.
+- CI/status checks configurados: nenhum.
+- Merge method: squash.
+- Merge SHA: `a3e133dbb5f25d0780f8ac86395bcdd8c96074fa`.
+- Resultado: MERGED.
 
 ## Fechamento
 
-- STATUS.md: IN_REVIEW durante esta evidência.
-- BOARD.md: IN_REVIEW durante esta evidência.
-- Pendências fora do escopo: definição de licença pública do repositório permanece decisão separada.
+- Branch de closeout: `task/FIX-001-closeout`.
+- Critérios de aceite em `TASK.md`: todos confirmados.
+- BLOCKED_BY: none.
+- DEFERRED_GATE: none.
+- Pendência fora do escopo: definição de licença pública do repositório permanece decisão separada.
