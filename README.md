@@ -86,7 +86,7 @@ Para adotar o Fix Development em outro repositório:
 5. dê ao Codex um pedido no formato de issue: objetivo, escopo, fora de escopo, critérios de aceite e referências;
 6. deixe o fluxo de estados conduzir a execução até `DONE`.
 
-Guia completo: [`docs/ADOCAO.md`](docs/ADOCAO.md).
+Guia completo: [`docs/ADOCAO.md`](docs/ADOCAO.md). Prompts prontos: [`templates/PROMPTS.md`](templates/PROMPTS.md).
 
 ## Mapa da documentação
 
@@ -102,6 +102,9 @@ Guia completo: [`docs/ADOCAO.md`](docs/ADOCAO.md).
 | [`docs/SEGURANCA.md`](docs/SEGURANCA.md) | Gate de segurança proporcional ao risco |
 | [`docs/ZIMAOS-CUSTOM-APP.md`](docs/ZIMAOS-CUSTOM-APP.md) | Padrão adicional para apps customizados no ZimaOS |
 | [`docs/ADOCAO.md`](docs/ADOCAO.md) | Como aplicar o modelo a um repositório existente ou novo |
+| [`docs/REFERENCIAS.md`](docs/REFERENCIAS.md) | Fontes oficiais usadas para revisar o modelo |
+| [`templates/PROMPTS.md`](templates/PROMPTS.md) | Prompts curtos para iniciar, retomar, revisar e fechar tarefas |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Como contribuir com o modelo |
 
 ## Papéis do fluxo
 
@@ -130,4 +133,4 @@ O Fix Development não tenta colocar todo o conhecimento no prompt nem em um `AG
 
 ---
 
-**Status do modelo:** versão inicial em construção.
+**Status do modelo:** bootstrap da versão pública v1 em revisão.
