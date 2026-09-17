@@ -133,4 +133,4 @@ O Fix Development não tenta colocar todo o conhecimento no prompt nem em um `AG
 
 ---
 
-**Status do modelo:** bootstrap da versão pública v1 em revisão.
+**Status do modelo:** versão pública v1 disponível.
